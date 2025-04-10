@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-03T14:56:32 IST" name="Default suite" finished-at="2024-12-03T14:57:03 IST" duration-ms="30140">
+    <groups>
+    </groups>
+    <test started-at="2024-12-03T14:56:32 IST" name="Default test" finished-at="2024-12-03T14:57:03 IST" duration-ms="30140">
+      <class name="Test.BaseTest">
+        <test-method signature="signUpTest()[pri:1, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:56:32 IST" name="signUpTest" finished-at="2024-12-03T14:56:39 IST" duration-ms="6213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method signature="loginTest()[pri:2, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:56:39 IST" name="loginTest" finished-at="2024-12-03T14:56:43 IST" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="selectProductAndAddToCartTest()[pri:3, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:56:43 IST" name="selectProductAndAddToCartTest" finished-at="2024-12-03T14:56:57 IST" duration-ms="14500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductAndAddToCartTest -->
+        <test-method signature="VerifyCartProducts()[pri:4, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:56:57 IST" name="VerifyCartProducts" finished-at="2024-12-03T14:57:01 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartProducts -->
+        <test-method signature="PurchaseWithoutFillingTheForm()[pri:5, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:57:01 IST" name="PurchaseWithoutFillingTheForm" finished-at="2024-12-03T14:57:02 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseWithoutFillingTheForm -->
+        <test-method signature="PurchaseAfterFillingTheForm()[pri:6, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:57:02 IST" name="PurchaseAfterFillingTheForm" finished-at="2024-12-03T14:57:02 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseAfterFillingTheForm -->
+        <test-method signature="VerifyOrderDetails()[pri:7, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:57:02 IST" name="VerifyOrderDetails" finished-at="2024-12-03T14:57:02 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderDetails -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:Test.BaseTest@5ee34b1b]" started-at="2024-12-03T14:57:02 IST" name="quitDriver" finished-at="2024-12-03T14:57:03 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Test.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
