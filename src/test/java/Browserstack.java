@@ -28,5 +28,6 @@ public class Browserstack extends SeleniumTest {
         String productOnCartText = driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]")).getText();
         Assert.assertEquals(productOnScreenText, productOnCartText);
         //comment
+        //dnsbhcds
     }
 }
