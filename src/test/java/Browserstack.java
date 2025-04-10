@@ -27,5 +27,6 @@ public class Browserstack extends SeleniumTest {
         // Check the product inside the cart is same as of the main page
         String productOnCartText = driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[2]/div[2]/div/div[3]/p[1]")).getText();
         Assert.assertEquals(productOnScreenText, productOnCartText);
+        //comment
     }
 }
